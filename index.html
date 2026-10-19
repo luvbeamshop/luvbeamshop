@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luvbeamshop - แอพพรีราคาส่ง</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Prompt', sans-serif; }
+    </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-pink-200 rounded-full flex items-center justify-center text-xl">🎀</div>
+                <div>
+                    <h1 class="font-bold text-lg text-pink-600 leading-tight">luvbeamshop</h1>
+                    <p class="text-xs text-gray-500">แอพพรีราคาส่ง</p>
+                </div>
+            </div>
+            <a href="https://line.me" target="_blank" class="bg-green-500 text-white text-xs px-3 py-1.5 rounded-full font-medium shadow">ติดต่อ LINE</a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-md mx-auto p-4 space-y-4 pb-20">
+        
+        <!-- Bio / Intro Box -->
+        <div class="bg-white p-4 rounded-2xl shadow-sm text-center space-y-2">
+            <p class="text-xs text-gray-600 leading-relaxed">
+                ☁️.♡ เว็บไซต์สำหรับสต็อกสินค้า (ราคาส่ง) ทุกแอพ . ! 🎀 จากร้าน luvbeamshop สมัครยูสแล้วใช้งานได้เลย ไม่ต้องติดต่อยืนยันตัวตน ราคาในเว็บเป็นราคาส่งตัวแทน 100%
+            </p>
+            <div class="flex gap-2 justify-center pt-2">
+                <a href="#products" class="bg-pink-400 hover:bg-pink-500 text-white text-sm px-5 py-2 rounded-full shadow-sm font-medium">เลือกดูสินค้า</a>
+                <a href="#topup" class="border border-gray-300 hover:bg-gray-50 text-gray-700 text-sm px-5 py-2 rounded-full font-medium">วิธีเติมเงิน</a>
+            </div>
+        </div>
+
+        <!-- Banner Image Placeholder -->
+        <div class="bg-pink-200 rounded-2xl h-48 flex items-center justify-center text-pink-700 font-bold overflow-hidden shadow-inner relative">
+            <!-- คุณสามารถเปลี่ยนลิงก์รูปภาพแบนเนอร์ตรงนี้ได้ -->
+            <div class="absolute inset-0 bg-gradient-to-r from-pink-300 to-rose-200 flex flex-col items-center justify-center text-center p-4">
+                <span class="text-3xl mb-1">🧸🍓</span>
+                <span class="text-lg font-bold text-pink-800">luvbeamshop</span>
+                <span class="text-xs text-pink-700">โปรโมชั่นพิเศษประจำเดือนนี้</span>
+            </div>
+        </div>
+
+        <!-- Products Section -->
+        <div id="products">
+            <h2 class="font-bold text-gray-700 mb-3 flex items-center justify-between">
+                <span>🔥 สินค้ายอดนิยม</span>
+                <span class="text-xs text-pink-500 font-normal">อัปเดตสต็อกตลอด</span>
+            </h2>
+
+            <!-- Product Grid -->
+            <div class="grid grid-cols-2 gap-3">
+                
+                <!-- Item 1 -->
+                <div class="bg-white p-3 rounded-2xl shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="bg-red-600 h-28 rounded-xl mb-2 flex items-center justify-center text-white font-black text-2xl tracking-tighter shadow">
+                            NETFLIX
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 line-clamp-1">Netflix หารจอ (พรีเมียม 4K)</h3>
+                        <p class="text-[10px] text-gray-500">จอส่วนตัว / ต่อเนื่อง</p>
+                    </div>
+                    <div class="mt-3 flex items-center justify-between">
+                        <span class="text-pink-600 font-bold text-sm">฿69</span>
+                        <a href="https://line.me" target="_blank" class="bg-pink-500 hover:bg-pink-600 text-white text-xs px-3 py-1.5 rounded-lg font-medium">สั่งซื้อ</a>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="bg-white p-3 rounded-2xl shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="bg-green-600 h-28 rounded-xl mb-2 flex items-center justify-center text-white font-bold text-lg shadow">
+                            SPOTIFY
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 line-clamp-1">Spotify Premium (1 เดือน)</h3>
+                        <p class="text-[10px] text-gray-500">ไอดีส่วนตัว / ต่ออายุได้</p>
+                    </div>
+                    <div class="mt-3 flex items-center justify-between">
+                        <span class="text-pink-600 font-bold text-sm">฿49</span>
+                        <a href="https://line.me" target="_blank" class="bg-pink-500 hover:bg-pink-600 text-white text-xs px-3 py-1.5 rounded-lg font-medium">สั่งซื้อ</a>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="bg-white p-3 rounded-2xl shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="bg-red-500 h-28 rounded-xl mb-2 flex items-center justify-center text-white font-bold text-lg shadow">
+                            YouTube
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 line-chengladbach line-clamp-1">YouTube Premium (รายเดือน)</h3>
+                        <p class="text-[10px] text-gray-500">ไม่มีโฆษณาคั่น</p>
+                    </div>
+                    <div class="mt-3 flex items-center justify-between">
+                        <span class="text-pink-600 font-bold text-sm">฿35</span>
+                        <a href="https://line.me" target="_blank" class="bg-pink-500 hover:bg-pink-600 text-white text-xs px-3 py-1.5 rounded-lg font-medium">สั่งซื้อ</a>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="bg-white p-3 rounded-2xl shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="bg-blue-600 h-28 rounded-xl mb-2 flex items-center justify-center text-white font-bold text-lg shadow">
+                            CANVA
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 line-clamp-1">Canva Pro (ทีม Education)</h3>
+                        <p class="text-[10px] text-gray-500">อัปเกรดอีเมลส่วนตัว</p>
+                    </div>
+                    <div class="mt-3 flex items-center justify-between">
+                        <span class="text-pink-600 font-bold text-sm">฿29</span>
+                        <a href="https://line.me" target="_blank" class="bg-pink-500 hover:bg-pink-600 text-white text-xs px-3 py-1.5 rounded-lg font-medium">สั่งซื้อ</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- How to Topup Section -->
+        <div id="topup" class="bg-white p-4 rounded-2xl shadow-sm space-y-2">
+            <h3 class="font-bold text-sm text-gray-800">💳 วิธีการเติมเงินและสั่งซื้อ</h3>
+            <p class="text-xs text-gray-600 leading-relaxed">
+                1. ทักแชท LINE Official Account ของร้านค้า<br>
+                2. แจ้งสินค้าที่ต้องการและโอนเงินผ่านพร้อมเพย์<br>
+                3. ส่งสลิปหลักฐานการโอน รอรับสินค้าภายใน 5-10 นาที
+            </p>
+        </div>
+
+    </main>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 py-2 shadow-lg">
+        <div class="max-w-md mx-auto flex justify-around text-center text-xs text-gray-500">
+            <a href="#" class="text-pink-600 font-medium flex flex-col items-center">
+                <span class="text-lg">🏠</span>
+                <span>หน้าหลัก</span>
+            </a>
+            <a href="#products" class="flex flex-col items-center hover:text-pink-600">
+                <span class="text-lg">📦</span>
+                <span>สินค้า</span>
+            </a>
+            <a href="https://line.me" target="_blank" class="flex flex-col items-center hover:text-pink-600">
+                <span class="text-lg">💬</span>
+                <span>ติดต่อเรา</span>
+            </a>
+        </div>
+    </nav>
+
+</body>
+</html>
